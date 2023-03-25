@@ -1,0 +1,71 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(Poppins/Poppins-Light.ttf);
+}
+
+.container-navbar {
+  font-family: poppins;
+  width: 100%;
+  height: 80px;
+  background-color: #9854cb;
+}
+
+.container-navbar li {
+  margin-top: 25px;
+  margin-right: 40px;
+  float: right;
+  list-style-type: none;
+  border-radius: 20px;
+}
+
+.container-navbar li:hover {
+  background-color: #64379f;
+}
+
+.container-navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-navbar a:hover {
+  font-weight: bold;
+}
+
+.container-konten {
+  width: 100%;
+  height: 100vh;
+  background-color: #64379f;
+  font-family: poppins;
+  color: white;
+}
+
+header {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-konten img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.about-me {
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: poppins;
+  font-size: 20px;
+  background-color: #9854cb;
+  color: white;
+}
